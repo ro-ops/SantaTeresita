@@ -1,0 +1,20 @@
+@import url(nav.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(font.css);
+@import url(menu.css);
+@import url(carrusel.css);
+@import url(oferta.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.4;
+    background: url('../img/Fondo/xbar-hero.jpg.pagespeed.ic.hGUsHr4KTD.jpg');
+    opacity: 0.7;
+    /*background-color: #000000;*/
+
+}

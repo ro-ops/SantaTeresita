@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Distribuidora - SantaTeresita</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/2745f6f530/UntitledProject/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Jquery saber explicar-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script> <!-- Validador jquery-->
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Patrick+Hand|Permanent+Marker|Special+Elite&display=swap" rel="stylesheet">   
+</head>
+<body>
+<header>
+ <!-- NavBar -->
+ <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                      <li><a class="f-menu" href="index.html">INICIO</a></li>
+                      <li><a class="f-menu" href="productos.html">PRODUCTOS</a></li>
+                      <li><a class="f-menu" href="nosotros.html">NOSOTROS</a></li>
+                    </ul>
+               </div>
+          </div>
+      </div>
+  </div>
+</header>
+  
+  <main>
+         <!-- Redes sociales / Flotante-->
+    <div class="social-bar">
+         <a href="https://www.facebook.com" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
+        <a href="https://www.twitter.com" class="icon icon-twitter" target="_blank"></a>
+    </div>
+    <!--Contenido banner-->
+  <header class="showcase">
+        <div class="container showcase-inner">
+            <h1 class="f-menu" >BIENVENIDO</h1>
+            <h2 class="s-banner" >DISTRIBUIDORA SANTA TERESITA</h2>
+            <p class="f-menu" id="intro" >Tenemos las mejores marcas a muy buen precio, poseemos una gran variedad de licores y bebidas a su disposición, 
+             solo debes elegir tus productos pedirlas, te recomendamos revisar nuestras ofertas que te pueden interesar.   Se hacen envios a todo Chile.
+            </p>
+            <a id="c-banner" onclick="smoothScroll(document.getElementById('second'))" class="btn">COMPRAR</a>
+        </div>
+  </header>
+
+<!-- Ofertas -->
+<section class="f1 row">
+
+        <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h2 id="second" class="s-banners Oferta">Las Ofertas diesiocheras comienzan en : 
+                        <span id="clock"></span>
+                </h2>
+                <script src="js/scroll.js"></script>
+
+                <script src="js/countdown.js"></script>
+
+                <div class="s-banner Oferta">
+                        <a href="ofertas.html"> <img src="img/bann/ofertas-300x216.png" alt=""> <h1>CONOCE NUESTRAS OFERTAS!</h1> </a>
+                </div>
+        </article>
+
+</section>
+
+<!--Categorias-->
+<section class="f1 f-menu row">
+
+        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="Categoria">
+                        <a href="productos.html"> <img src="img/bann/ron1.png" alt=""> <h1> RON</h1> </a>
+                </div>
+        </article>
+
+        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="Categoria">
+                        <a href="productos.html"> <img src="img/bann/pisco2.png" alt=""> <h1> PISCO</h1> </a>
+                </div>
+        </article>
+
+        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="Categoria">
+                        <a href="productos.html"> <img src="img/bann/vodka4.png" alt=""> <h1> VODKA</h1> </a>
+                </div>
+        </article>
+
+        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="Categoria">
+                        <a href="productos.html"> <img src="img/bann/tequila2.png" alt=""> <h1> TEQUILA</h1> </a>
+                </div>
+        </article>
+
+        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="Categoria">
+                        <a href="productos.html"> <img src="img/bann/vino1.png" alt=""> <h1> VINO</h1> </a>
+                </div>
+        </article>
+
+        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="Categoria">
+                        <a href="productos.html"> <img src="img/bann/cerveza2.png" alt=""> <h1> CERVEZA</h1> </a>
+                </div>
+        </article>
+
+        <article class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="Categoria">
+                        <a href="productos.html"> <img src="img/bann/espumante2.png" alt=""> <h1> ESPUMANTE</h1> </a>
+                </div>
+        </article>       
+
+</section>
+</main>
+
+<footer class="footer">
+
+    <div class="footer-bottom">
+            &copy; santateresita.com | created by Manuel Verdugo Romina Castillo 
+    </div>
+
+</footer>
+
+
+</body>
+</html>
